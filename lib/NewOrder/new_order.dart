@@ -25,7 +25,7 @@ class _NewOrdersScreenState extends State<NewOrdersScreen> {
       backgroundColor: backgroundColor,
       appBar: AppBar(
         backgroundColor: themeColor,
-        title: const Text('Pending Orders'),
+        title: const Text('Pending Orders',),
         centerTitle: true,
         leading: Padding(
           padding: EdgeInsets.only(

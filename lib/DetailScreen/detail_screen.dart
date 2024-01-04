@@ -51,6 +51,12 @@ class DetailScreen extends StatelessWidget {
   final String secBtnTitle;
   final Widget nextScreen;
   final bool isCancelScreen;
+  Widget customDivider() {
+    return Divider(
+      color: Colors.grey.shade300,
+      height: 0.5,
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -123,40 +129,19 @@ class DetailScreen extends StatelessWidget {
                           endIndent: screenWidth * 0.1,
                         ),
                         DetailsRow(title: 'Status', detail: status),
-                        Divider(
-                          color: Colors.grey.shade300,
-                          height: 0.5,
-                        ),
+                        customDivider(),
                         DetailsRow(title: 'Package', detail: package),
-                        Divider(
-                          color: Colors.grey.shade300,
-                          height: 0.5,
-                        ),
+                        customDivider(),
                         DetailsRow(title: 'Pick Date', detail: pickDate),
-                        Divider(
-                          color: Colors.grey.shade300,
-                          height: 0.5,
-                        ),
+                        customDivider(),
                         DetailsRow(title: 'Pick Time', detail: pickTime),
-                        Divider(
-                          color: Colors.grey.shade300,
-                          height: 0.5,
-                        ),
+                        customDivider(),
                         DetailsRow(title: 'Drop Date', detail: dropDate),
-                        Divider(
-                          color: Colors.grey.shade300,
-                          height: 0.5,
-                        ),
+                        customDivider(),
                         DetailsRow(title: 'Drop Time', detail: dropTime),
-                        Divider(
-                          color: Colors.grey.shade300,
-                          height: 0.5,
-                        ),
+                        customDivider(),
                         DetailsRow(title: 'Fragrance', detail: fragrance),
-                        Divider(
-                          color: Colors.grey.shade300,
-                          height: 0.5,
-                        ),
+                        customDivider(),
                         DetailsRow(title: 'Detergent', detail: detergent),
                         Divider(
                           color: themeColor,

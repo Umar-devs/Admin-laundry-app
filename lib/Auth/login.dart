@@ -1,3 +1,4 @@
+import 'package:admin/Auth/register.dart';
 import 'package:admin/Auth/txt_field.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -97,6 +98,32 @@ class LoginScreen extends StatelessWidget {
                     txtFontSize: screenWidth * 0.04,
                     lbl: 'Login'),
               ),
+              SizedBox(height: screenHeight*0.025,),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  ReusableText(
+                      weight: FontWeight.w500,
+                      fontSize: screenWidth * 0.03,
+                      title: 'Don`t have an account?', clr: Colors.black, ),
+                  GestureDetector(
+                      onTap: () {
+                        Get.to(
+                          RegisterScreen(
+                            screenWidth: screenWidth,
+                            screenHeight: screenHeight,
+                          ),
+                          transition: Transition.rightToLeft,
+                        );
+                      },
+                      child: ReusableText(
+                        weight: FontWeight.w600,
+                        fontSize: screenWidth * 0.035,
+                        title: '  Register',
+                        clr: Colors.black, 
+                      ))
+                ],
+              )
             ],
           ),
         ),

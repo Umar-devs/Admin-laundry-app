@@ -38,43 +38,13 @@
             {
               "client_id": "418658691947-41971b9iarjgscsqd062ofioueics0qm.apps.googleusercontent.com",
               "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:418658691947:android:80025b80735a4db9fc3a2e",
-        "android_client_info": {
-          "package_name": "com.example.flutter_application_1"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "418658691947-ueug42at9phgkbqrmot8eu53lhb65ip1.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.flutter_application_1",
-            "certificate_hash": "cd85505bf58f5ceaed2c7268fbba9eed151cb84f"
-          }
-        },
-        {
-          "client_id": "418658691947-i76h4dejcod229mihh5utabtpun29lq9.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDysafazXTb19DllfBxBw74MNKjJUdk8U4"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
+            },
             {
-              "client_id": "418658691947-41971b9iarjgscsqd062ofioueics0qm.apps.googleusercontent.com",
-              "client_type": 3
+              "client_id": "418658691947-0s3upjg152dbiahju40534fve8ufkmso.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.laundaryAppFinal"
+              }
             }
           ]
         }
@@ -112,6 +82,13 @@
             {
               "client_id": "418658691947-41971b9iarjgscsqd062ofioueics0qm.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "418658691947-0s3upjg152dbiahju40534fve8ufkmso.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.laundaryAppFinal"
+              }
             }
           ]
         }

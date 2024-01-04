@@ -21,6 +21,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xfff2f1f2),
       appBar: AppBar(
+        leading:const Text(''),
         centerTitle: true,
         backgroundColor: const Color.fromARGB(255, 192, 220, 243),
         title: Image.asset(
